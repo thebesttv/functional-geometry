@@ -1,0 +1,12 @@
+#+title: Functional Geometry
+
+From SICP chapter 2.2.4.
+
+* Dependency
+
+- Guile 3.0.4
+- [[https://www.nongnu.org/guile-cairo/][guile-cairo]] 1.11.2, though =(cairo-version-string)= returns "1.16.0".
+
+* TODO
+
+- [[https://github.com/georgjz/functional-geometry-gambit-scheme][Functional Geometry with Gambit Scheme and Raylib]]
