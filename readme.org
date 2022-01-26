@@ -6,7 +6,16 @@ From SICP chapter 2.2.4.
 
 - Guile 3.0.4
 - [[https://www.nongnu.org/guile-cairo/][guile-cairo]] 1.11.2, though =(cairo-version-string)= returns "1.16.0".
+  If you install =guile-cairo= under =/opt/guile-cairo=, then add the
+  following directory to guile's load path.  For convenience, add this
+  line to =~/.guile= as well.
+  #+begin_src scheme
+    (add-to-load-path "/opt/guile-cairo/share/guile/site")
+  #+end_src
+  Run =(use-modules (cairo))= to use it.
 
 * TODO
 
 - [[https://github.com/georgjz/functional-geometry-gambit-scheme][Functional Geometry with Gambit Scheme and Raylib]]
+- [[https://frank-buss.de/lisp/functional.html][Functional Geometry]]
+- [[https://eprints.soton.ac.uk/257577/1/funcgeo2.pdf][paper]]
